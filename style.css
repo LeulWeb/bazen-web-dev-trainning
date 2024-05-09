@@ -1,136 +1,191 @@
-*{
-    box-sizing:content-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
 }
 
-.navbar-container{
-    width: 100vw;
-    position: fixed;
-    background-color: white;
+.navbar-container {
+  width: 100vw;
+  position: fixed;
+  background-color: white;
 }
 
-body{
-    height: 200vh;
-    background-color: rgb(240, 233, 233);
-    font-family: "Poppins", sans-serif;
+body {
+  height: 200vh;
+  background-color: rgb(240, 233, 233);
+  font-family: "Poppins", sans-serif;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
+nav {
+  display: flex;
+  justify-content: space-between;
 
-    width: 80%;
-    margin: 12px auto;
-   
+  width: 80%;
+  margin: 12px auto;
 }
 
-
-.nav-links{
-    display: flex;
-    align-items: center;
+.nav-links {
+  display: flex;
+  align-items: center;
 }
 
-.nav-links a{
-    margin: 0 24px;
-    text-decoration: none;
-    color: black;
+.nav-links a {
+  margin: 0 24px;
+  text-decoration: none;
+  color: black;
 }
 
-.nav-contact{
-    background-color: rgb(172, 60, 7);
-    padding: 12px;
-    border-radius: 8px;
+.nav-contact {
+  background-color: rgb(172, 60, 7);
+  padding: 12px;
+  border-radius: 8px;
 }
 
-.nav-contact a{
-    color: white;
-    margin: 0 5px;
+.nav-contact a {
+  color: white;
+  margin: 0 5px;
 }
-
 
 /* Hero Section */
 
-
-.hero-section{
-   /* background-color: yellow; */
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.hero-section {
+  /* background-color: yellow; */
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.hero-text{
-    width: 50%;
+.hero-text {
+  width: 50%;
 }
 
-
-.hero-image{
-    /* background-color: red; */
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
+.hero-image {
+  /* background-color: red; */
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.hero-image img{
-    width: 70%;
-
+.hero-image img {
+  width: 70%;
 }
 
-.hero-title{
-    font-size: 3em;
-    margin-bottom: 1.3em;
-    color: rgb(172, 60, 7);
+.hero-title {
+  font-size: 3em;
+  margin-bottom: 1.3em;
+  color: rgb(172, 60, 7);
 }
 
-.hero-description{
-    font-size: 1.5em;
-    word-spacing: 8px;
-    line-height: 1.2em;
+.hero-description {
+  font-size: 1.5em;
+  word-spacing: 8px;
+  line-height: 1.2em;
 }
-
 
 /* work section */
 
-.work{
-    background-color: rgb(172, 60, 7);
-    height: 50vh;
-
+.work {
+  background-color: rgb(172, 60, 7);
+  height: 50vh;
+  display: flex;
+  align-items: center;
 }
 
-.work-wrapper{
-    width: 80%;
-    margin:  0 auto;
+.work-wrapper {
+  width: 80%;
+  margin: 0 auto;
 }
 
-.work-title{
-    text-align: center;
-    color: white;
-    font-size: 2em;
-    padding: 12px 0;
+.work-title {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  padding: 12px 0;
 }
 
-.work-container{
-    display: flex;
-    justify-content: space-evenly;
+.work-container {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-/* 
-.work-card{
-    min-width: 5em;
-    width: 100%;
-    margin: 0 12px;
-    min-height: 5em;
-    background-color: white;
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column ;
+.icon-container {
+  width: 64px;
+  height: 64px;
+  background-color: rgb(172, 60, 7);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.work-icon{
-    background-color: rgb(172, 60, 7);
-    padding: 24px;
-    border-radius: 100%;
-} */
+.card-icon {
+  color: white;
+}
 
+.work-card {
+  padding: 12px;
+  min-width: 5em;
+  width: 100%;
+  margin: 0 12px;
+  min-height: 5em;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-card-title {
+  font-size: 1.5rem;
+  margin: 1rem 0px;
+}
+
+.work-card-description {
+  margin-bottom: 1rem;
+}
+
+/* style for tech section */
+
+.tech {
+  margin: 0 auto;
+  background-color: #f3f4f6;
+}
+
+.tech-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.tech-title {
+  text-align: center;
+  font-size: 2em;
+  padding: 12px 0;
+}
+
+.tech-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.4rem;
+}
+
+.tech-container-text {
+  width: 40%;
+}
+
+.tech-container-animation {
+  width: 50%;
+  height: 60vh;
+}
+
+.tech-description {
+  font-size: 1.3rem;
+}

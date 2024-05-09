@@ -15,6 +15,9 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <!-- choose one -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
   </head>
   <body>
     <!-- nav section  -->
@@ -50,30 +53,92 @@
       </div>
     </section>
 
-
     <!-- work section -->
     <section class="work">
       <div class="work-wrapper">
         <div class="work-title">
-        <p>What I build</p>
-      </div>
-      <div class="work-container">
-        <div class="work-card">
-          <i class="fa fa-mobile fa-5x work-icon" aria-hidden="true"></i>
-          <p class="work-card-title">card 1</p>
-          <p class="work-card-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem amet a accusantium?
-          </p>
-
+          <p>What I build</p>
         </div>
-        <div class="work-card">
-          <p>card 2</p>
+        <div class="work-container">
+          <div class="work-card">
+            <div class="icon-container">
+              <i data-feather="smartphone" class="card-icon"></i>
+            </div>
+            <p class="work-card-title">Mobile App Dev</p>
+            <p class="work-card-description">
+              I will build amazing mobile app that are user friendly and are
+              suitable to use that will meet you business need. I have
+              experience in creating power full mobile app with amazing
+              UI.Contact me to get your app.
+            </p>
+          </div>
+          <div class="work-card">
+            <div class="icon-container">
+              <i data-feather="globe" class="card-icon"></i>
+            </div>
+            <p class="work-card-title">Website Dev</p>
+            <p class="work-card-description">
+              I will build amazing mobile app that are user friendly and are
+              suitable to use that will meet you business need. I have
+              experience in creating power full mobile app with amazing
+              UI.Contact me to get your app.
+            </p>
+          </div>
+          <div class="work-card">
+            <div class="icon-container">
+              <i data-feather="monitor" class="card-icon"></i>
+            </div>
+            <p class="work-card-title">Desktop App Dev</p>
+            <p class="work-card-description">
+              I will build amazing mobile app that are user friendly and are
+              suitable to use that will meet you business need. I have
+              experience in creating power full mobile app with amazing
+              UI.Contact me to get your app.
+            </p>
+          </div>
         </div>
-        <div class="work-card">
-          <p>card 3 </p>
-        </div>
-      </div>
       </div>
     </section>
+    
+    <!-- tech stack section -->
+    
+    <section class="tech">
+      <div class="tech-wrapper">
+        <p class="tech-title">What is our Tech Stack</p>
+
+        <div class="tech-container">
+          <!--  texts -->
+          <div class="tech-container-text">
+            <!-- html, css , js  -->
+            <div class="tech-logo-container">
+              <img src="./icons/html.png" alt="">
+              <img src="./icons/css.png" alt="">
+              <img src="./icons/js.png" alt="">
+            </div>
+            <p class="tech-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, neque distinctio ut nam deleniti explicabo labore accusamus quibusdam voluptatem. Voluptas ipsam tempora iusto. Facere, molestias! Tempora totam repellendus distinctio odio.
+            </p>
+          </div>
+          <!-- illustration 3D  -->
+          <div class="tech-container-animation">
+            <iframe src='https://my.spline.design/planetcopy-857ad7800f7bbeaa250c71d6a3750fad/' frameborder='0' width='100%' height='100%'></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+
+
+
+
+
+
+
+    <!-- Javascript to enable icons -->
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>

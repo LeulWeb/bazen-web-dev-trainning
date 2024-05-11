@@ -11,7 +11,7 @@
 }
 
 body {
-  height: 200vh;
+  /* height: 200vh; */
   background-color: rgb(240, 233, 233);
   font-family: "Poppins", sans-serif;
 }
@@ -188,4 +188,50 @@ nav {
 
 .tech-description {
   font-size: 1.3rem;
+}
+
+/* Contact  */
+
+
+.contact{
+  background-image: url("./images/bkg.jpg");
+  background-size: cover;
+  padding: 1.5rem;
+}
+
+.contact-wrapper {
+  width: 80%;
+  margin: 2rem auto;
+  background-color: white;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contact-form{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+input{
+  width: 15rem;
+  padding: 12px 8px;
+  border-radius: 8px;
+}
+
+textarea{
+   width: 15rem;
+   height: 15rem;
+  padding: 12px 8px;
+  border-radius: 8px;
+}
+
+.contact-form-title{
+  font-size: 2rem;
+  font-weight: 300;
 }
